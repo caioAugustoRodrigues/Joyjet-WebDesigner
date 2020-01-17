@@ -1,0 +1,202 @@
+.menu-btn {
+    z-index: 3;
+    position: absolute;
+    right: 24px;
+    top: 45px;
+    height: 22.4px;
+    width: 32px;
+    cursor: pointer;
+    @include transition-ease;
+
+    &__burger {
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+        width: 32px;
+        height: 3.2px;
+        background: $text-color;
+        @include transition-ease;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -7px;
+            width: 32px;
+            height: 3.2px;
+            background: $text-color;
+            @include transition-ease;
+            
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 7px;
+            width: 32px;
+            height: 3.2px;
+            background: $text-color;
+            @include transition-ease;
+        }
+
+        &.open {
+            transform: rotate(720deg);
+            background: transparent;
+
+            &::before {
+                transform: rotate(45deg) translate(5px, 8px);
+            }
+
+            &::after { 
+                width: 32px;
+                transform: rotate(-45deg) translate(3.2px, -7px);
+            }
+        }
+    }
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    opacity: 0.98;
+    visibility: hidden;
+
+    &.open {
+        visibility: visible;
+    }
+    
+    .menu-nav {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: space-around;
+        justify-content: flex-start;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        background: $secondary-color;
+        list-style-type: none;
+        transform: translateY(-100%);
+        @include transition-ease;
+
+        &.open {
+            transform: translateY(0);
+        }
+
+        &__inner {
+            margin-top: 10vh;
+            height: 75vh;
+            width: 50vw;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        &__item {
+            margin-top: 0.5rem;
+            transform: translateX(100vw);
+            @include transition-ease;
+
+            &.open {
+                transform: translateX(0);
+            }
+
+            &.active > a {
+            color: $text-color;
+            }
+        }
+
+        &__link {
+            display: inline-flex;
+            justify-self: center;
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding: 2rem, 0;
+            margin: 2rem, 0;
+            font-weight: 600;
+            @include transition-ease;
+
+            &:active {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .social-icons {
+        visibility: visible;
+        color: $text-color;
+        padding: 1rem;
+        transform: translateY(+800%);
+        border-top: 1px solid $secondary-color;
+        margin-top: 1rem;
+
+        &.open {
+            transform: translateY(0) !important;
+        }
+
+        a {
+            margin: auto 0.5rem;
+            @include transition-ease;
+
+            &:active {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+@for $i from 1 through 8 {
+    .menu-nav__item:nth-child(#{$i}){
+        transition-delay: ($i * 0.1s) + 0.15s;
+    }
+}
+
+@include media-md {
+    .menu-btn {
+        visibility: hidden;
+    }
+
+    .nav {
+        visibility: visible;
+
+        .menu-nav {
+            display: block;
+            transform: translateY(0);
+            height: 100%;
+            width: 100%;
+            padding: 1rem;
+            margin: 1rem 3rem;
+            background: $secondary-color !important;
+
+            &__item {
+                display: inline;
+                padding-right: 1.5rem;
+            }
+
+            &__link {
+                text-align: left;
+                font-size: 1.5rem;
+
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+            
+            .social-icons {
+                border: none;
+                visibility: hidden;
+                transform: translateY(0);
+                
+                a {
+                    text-align: bottom;
+                    &:hover {
+                        color: $text-color;
+                    }
+                }
+            }
+
+        }
+    }
+}

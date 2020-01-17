@@ -1,0 +1,11 @@
+.logo {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin: 24px;
+    height: 64px;
+    width: 64px;
+    z-index: 25;
+    background: url('../assets/joyjet.png') no-repeat 0 0;
+    background-size: cover;
+}

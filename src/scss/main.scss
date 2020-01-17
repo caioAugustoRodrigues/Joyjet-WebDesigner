@@ -1,0 +1,34 @@
+@import 'resets';
+@import 'config';
+@import 'partials';
+
+
+html {
+    overflow-x: hidden;
+    
+    body{
+        background: $primary-color;
+        color: $text-color;
+        min-height: 100%;
+        height: 100vh;
+        font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1;
+        overflow-x: hidden;
+        display: flex;
+     }
+}
+
+a{
+    color: $text-color;
+    text-decoration: none;
+}
+
+//layout
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    width: 100%;
+}
