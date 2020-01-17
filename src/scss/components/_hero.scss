@@ -1,0 +1,68 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 100vw;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    background: 
+    linear-gradient(
+        to right,
+        rgba(#000, 0.5),
+        rgba(#000, 0.5),
+            ),
+    url('../assets/img/satelliteb.jpg') no-repeat center;
+    background-size: cover;
+    color: $text-color;
+
+    &__inner {
+        margin-top: 10vh;
+        display: flex;
+        flex-wrap: wrap;
+        height: 45vh;
+        width: 90vw;
+
+        &__text {
+    
+            h1 {
+                font-size: 3rem;
+                font-weight: weight(thin);
+                letter-spacing: 0;
+                line-height: 64px;
+                text-transform: uppercase;
+                span {
+                    color: $secondary-color;
+                }
+            }
+    
+            p {
+                margin-top: 1rem;
+                font-size: 18px;
+                font-weight: weight(regular);
+                line-height: 27px;
+            }
+        }
+
+        .btn {
+            width: 123px;
+            height: 51px;
+            background: $secondary-color;
+            border: none;
+            border-radius: 5px;
+            font-weight: weight(semibold);
+            font-size: 1.05rem;
+            @include transition-ease;
+
+            &:focus, &:hover, &:active {
+                border: none;
+                outline: none;
+                box-shadow: none;
+                font-weight: weight(regular);
+                font-size: 1.2rem;
+                
+            }
+        }
+    }
+}

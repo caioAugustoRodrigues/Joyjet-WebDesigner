@@ -18,17 +18,16 @@ html {
      }
 }
 
-a{
+a {
     color: $text-color;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 //layout
 
 header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    top: 0;
     z-index: 4;
     width: 100%;
 }

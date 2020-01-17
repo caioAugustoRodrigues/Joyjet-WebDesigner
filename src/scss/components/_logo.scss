@@ -1,8 +1,7 @@
 .logo {
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    margin: 24px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
     height: 64px;
     width: 64px;
     z-index: 25;

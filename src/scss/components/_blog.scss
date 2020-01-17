@@ -1,0 +1,32 @@
+.blog {
+    display: flex;
+    height: 100%;
+    background: $primary-color;
+
+    .container {
+        background: black;
+    }
+
+    .card {
+        overflow: hidden;
+        width: 17rem;
+        border: none;
+        display: flex;
+        justify-self: center;
+        border-radius: 8px;
+
+        &-img-top {
+            width: 17rem;
+        }
+
+        &-text {
+            h1 {
+                color: $text-color--dk;
+            }
+
+            p {
+                color: $text-color--lt;
+            }
+        }
+    }
+}

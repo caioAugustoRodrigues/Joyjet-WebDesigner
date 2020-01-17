@@ -15,26 +15,29 @@
         width: 32px;
         height: 3.2px;
         background: $text-color;
+        border-radius: 18%;
         @include transition-ease;
-
+        
         &::before {
             content: '';
             position: absolute;
-            top: -7px;
+            top: -8px;
             width: 32px;
             height: 3.2px;
+            border-radius: 18%;
             background: $text-color;
             @include transition-ease;
             
         }
-
+        
         &::after {
             content: '';
             position: absolute;
-            top: 7px;
+            top: 8px;
             width: 32px;
             height: 3.2px;
             background: $text-color;
+            border-radius: 18%;
             @include transition-ease;
         }
 
@@ -61,6 +64,7 @@
     width: 100vw;
     opacity: 0.98;
     visibility: hidden;
+    z-index: 2;
 
     &.open {
         visibility: visible;
@@ -95,16 +99,11 @@
         }
 
         &__item {
-            margin-top: 0.5rem;
             transform: translateX(100vw);
             @include transition-ease;
 
             &.open {
                 transform: translateX(0);
-            }
-
-            &.active > a {
-            color: $text-color;
             }
         }
 
@@ -113,35 +112,14 @@
             justify-self: center;
             font-size: 2rem;
             text-transform: uppercase;
-            padding: 2rem, 0;
-            margin: 2rem, 0;
-            font-weight: 600;
+            font-weight: weight(medium);
+            line-height: 64px;
             @include transition-ease;
 
-            &:active {
-                color: $secondary-color;
-            }
-        }
-    }
-
-    .social-icons {
-        visibility: visible;
-        color: $text-color;
-        padding: 1rem;
-        transform: translateY(+800%);
-        border-top: 1px solid $secondary-color;
-        margin-top: 1rem;
-
-        &.open {
-            transform: translateY(0) !important;
-        }
-
-        a {
-            margin: auto 0.5rem;
-            @include transition-ease;
-
-            &:active {
-                color: $secondary-color;
+            &:active, &:focus, &:hover {
+                font-size: 2.1rem;
+                font-weight: weight(regular);
+                color: $primary-color;
             }
         }
     }
@@ -166,9 +144,9 @@
             transform: translateY(0);
             height: 100%;
             width: 100%;
+            background: none;
             padding: 1rem;
             margin: 1rem 3rem;
-            background: $secondary-color !important;
 
             &__item {
                 display: inline;

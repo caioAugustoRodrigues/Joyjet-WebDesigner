@@ -1,9 +1,18 @@
-$primary-color: #f3f3f3;
+$primary-color: #f8f8f8;
 $secondary-color: #4A90E2;
+
 $text-color: #fff;
+$text-color--dk: #3E4D60;
+$text-color--lt: #8c94a8;
+
+$circle: #9b9b9b;
+$circle-outline: #979797;
+
 $font-weight:(
+    "thin": 100,
     "regular": 400,
     "medium": 500,
+    "semibold": 600,
     "bold": 700,
     "bolder": 900,
 );
