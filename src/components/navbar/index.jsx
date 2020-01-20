@@ -26,8 +26,16 @@ export default function NavBar() {
         }
     }
 
+    function handleNavWidth() {
+        if (window.innerWidth > 768) {
+            return "container"
+        } else {
+            return ''
+        }
+    }
+
     return (
-        <header>
+        <header className={`header ${handleNavWidth}`}>
             <span className="logo"></span>
 
             <div className="menu-btn" onClick={toggleMenu}>

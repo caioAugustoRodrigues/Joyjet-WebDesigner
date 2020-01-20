@@ -17,7 +17,6 @@ $font-weight:(
     "bold": 700,
     "bolder": 900,
 );
-$mobile: 768px;
 
 @function weight($weightname){
     @return map-get($font-weight, $weightname );

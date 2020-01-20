@@ -36,9 +36,9 @@ export default function Carousel() {
 
                             <div className="col-md-4 clearfix d-none d-md-block">
                                 <div className="card mb-2">
-                                    <img className="card-img-top" src={moon} alt="Card" />
+                                    <img className="card-img-top" src={satellite} alt="Card" />
                                     <div className="card-body">
-                                        <h4 className="card-title">My moon</h4>
+                                        <h4 className="card-title">My capsule</h4>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
                                     </div>
                                 </div>
@@ -46,9 +46,9 @@ export default function Carousel() {
 
                             <div className="col-md-4 clearfix d-none d-md-block">
                                 <div className="card mb-2">
-                                    <img className="card-img-top" src={satellite} alt="Card" />
+                                    <img className="card-img-top" src={moon} alt="Card" />
                                     <div className="card-body">
-                                        <h4 className="card-title">My capsule</h4>
+                                        <h4 className="card-title">My moon</h4>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
                                     </div>
                                 </div>
@@ -92,16 +92,6 @@ export default function Carousel() {
 
                     <div className="carousel-item">
                         <div className="row">
-                            <div className="col-md-4 clearfix">
-                                <div className="card mb-2">
-                                    <img className="card-img-top" src={moon} alt="Card" />
-                                    <div className="card-body">
-                                        <h4 className="card-title">My moon</h4>
-                                        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
-                                    </div>
-                                </div>
-                            </div>
-
                             <div className="col-md-4 clearfix d-none d-md-block">
                                 <div className="card mb-2">
                                     <img className="card-img-top" src={satellite} alt="Card" />
@@ -117,6 +107,16 @@ export default function Carousel() {
                                     <img className="card-img-top" src={satelliteInner} alt="Card" />
                                     <div className="card-body">
                                         <h4 className="card-title">International Space Station</h4>
+                                        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4">
+                                <div className="card mb-2">
+                                    <img className="card-img-top" src={moon} alt="Card" />
+                                    <div className="card-body">
+                                        <h4 className="card-title">My moon</h4>
                                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
                                     </div>
                                 </div>
