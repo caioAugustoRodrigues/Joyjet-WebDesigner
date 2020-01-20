@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function NavBar() {
-    
     let showMenu = false;
     
     function toggleMenu() {

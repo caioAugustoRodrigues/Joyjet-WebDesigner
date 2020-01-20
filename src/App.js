@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './css/main.css';
 import NavBar from './components/navbar';
 import Hero from './components/hero';
 import Blog from './components/blog';
+import About from './components/about';
 
 export default function App() {
 	return (
@@ -11,6 +11,7 @@ export default function App() {
 			<NavBar />
 			<Hero />
 			<Blog />
+		
 		</>
   	);
 }

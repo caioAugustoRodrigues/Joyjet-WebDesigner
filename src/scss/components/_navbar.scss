@@ -137,11 +137,12 @@
     }
 
     .nav {
-        visibility: visible;
+        visibility: hidden;
 
         .menu-nav {
             display: block;
             transform: translateY(0);
+            overflow: scroll;
             height: 100%;
             width: 100%;
             background: none;

@@ -1,0 +1,40 @@
+.btn {
+    &-floating {
+        color: $secondary-color;
+        font-size: 32px;
+        margin: 0 1rem;
+    }
+
+    &-prev {
+        position: absolute;
+        top: 50%;
+        z-index: 20;
+        left: -3rem;
+    }
+
+    &-next {
+        position: absolute;
+        top: 50%;
+        z-index: 20;
+        right: -3rem;
+    }
+}
+
+.carousel-indicators {
+    color: $secondary-color;
+    position: absolute;
+    bottom: -2rem;
+    z-index: 20;
+    font-size: 2rem;
+
+    li {
+        background: $text-color--lt;
+        border-radius: 100%;
+        width: .5rem;
+        height: .5rem;
+    }
+
+    .active {
+        background: $secondary-color;
+    }
+}

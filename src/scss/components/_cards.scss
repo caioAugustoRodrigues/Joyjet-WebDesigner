@@ -1,0 +1,11 @@
+.card {
+    border: none;
+    
+    &-title {
+        color: $text-color--dk
+    }
+
+    &-text {
+        color: $text-color--lt;
+    }
+}
