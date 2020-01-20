@@ -38,22 +38,22 @@ export default function NavBar() {
                 <div className="menu-nav">
                     <ul className="menu-nav__inner">
                         <li className="menu-nav__item">
-                            <a href="#" className="menu-nav__link">
+                            <a href="https://joyjet.com/" className="menu-nav__link">
                                 Blog
                             </a>
                         </li>
                         <li className="menu-nav__item">
-                            <a href="#" className="menu-nav__link">
+                            <a href="https://joyjet.com/" className="menu-nav__link">
                                 Popular
                             </a>
                         </li>
                         <li className="menu-nav__item contact">
-                            <a href="#" className="menu-nav__link">
+                            <a href="https://joyjet.com/" className="menu-nav__link">
                                 Archive
                             </a>
                         </li>
                         <li className="menu-nav__item contact">
-                            <a href="#" className="menu-nav__link">
+                            <a href="https://joyjet.com/" className="menu-nav__link">
                                 About
                             </a>
                         </li>

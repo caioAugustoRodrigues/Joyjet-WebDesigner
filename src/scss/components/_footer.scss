@@ -1,0 +1,16 @@
+.footer {
+    p {
+        font-size: 11px;
+        color: $text-color--ft;
+        text-align: left;
+        margin: 3rem 1rem;
+    }
+}
+
+@include media-md {
+    .footer {
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -1,3 +1,48 @@
 .about {
-    background: red;
+    margin-top: 10vh;
+    background: $primary-color;
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        flex: 1;
+        display: flex;
+        justify-self: center;
+        width: 100%;
+        margin: 1rem auto;
+        min-height: 272px;
+        border-radius: 8px;
+        background: url('../assets/img/satellite.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    &__text {
+        margin: 1rem auto;
+        flex: 1;
+        h1 {
+            color: $secondary-color;
+        }
+
+        p {
+            margin: 1rem 0;
+            color: $text-color--dk;
+        }
+    }
+
+}
+
+@include media-md {
+    .about {
+        flex-direction: row;
+
+        &__img {
+            flex: 1;
+            margin: 1rem;
+            min-height: 100%;
+        }
+
+        &__text {
+            flex: 3;
+        }
+    }
 }
