@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Joyjet-WebDesigner/static/css/main.ba7bcbf8.chunk.css",
+    "main.js": "/Joyjet-WebDesigner/static/js/main.7a5b83f1.chunk.js",
+    "main.js.map": "/Joyjet-WebDesigner/static/js/main.7a5b83f1.chunk.js.map",
+    "runtime-main.js": "/Joyjet-WebDesigner/static/js/runtime-main.8c0cd006.js",
+    "runtime-main.js.map": "/Joyjet-WebDesigner/static/js/runtime-main.8c0cd006.js.map",
+    "static/js/2.95feaf07.chunk.js": "/Joyjet-WebDesigner/static/js/2.95feaf07.chunk.js",
+    "static/js/2.95feaf07.chunk.js.map": "/Joyjet-WebDesigner/static/js/2.95feaf07.chunk.js.map",
+    "index.html": "/Joyjet-WebDesigner/index.html",
+    "precache-manifest.f955d5ddac3448fe2f6019201ea1624c.js": "/Joyjet-WebDesigner/precache-manifest.f955d5ddac3448fe2f6019201ea1624c.js",
+    "service-worker.js": "/Joyjet-WebDesigner/service-worker.js",
+    "static/css/main.ba7bcbf8.chunk.css.map": "/Joyjet-WebDesigner/static/css/main.ba7bcbf8.chunk.css.map",
+    "static/js/2.95feaf07.chunk.js.LICENSE": "/Joyjet-WebDesigner/static/js/2.95feaf07.chunk.js.LICENSE",
+    "static/media/main.css": "/Joyjet-WebDesigner/static/media/satelliteb.d55a2c5c.jpg",
+    "static/media/moon.jpg": "/Joyjet-WebDesigner/static/media/moon.9cefec53.jpg",
+    "static/media/satellite-inner.jpg": "/Joyjet-WebDesigner/static/media/satellite-inner.1e2e6cdb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c0cd006.js",
+    "static/js/2.95feaf07.chunk.js",
+    "static/css/main.ba7bcbf8.chunk.css",
+    "static/js/main.7a5b83f1.chunk.js"
+  ]
+}
