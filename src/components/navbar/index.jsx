@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../logo';
 
 export default function NavBar() {
     let showMenu = false;
@@ -28,46 +29,48 @@ export default function NavBar() {
 
     function handleNavWidth() {
         if (window.innerWidth > 768) {
-            return "container"
+            return "nav-container"
         } else {
             return ''
         }
     }
 
     return (
-        <header className={`header ${handleNavWidth}`}>
-            <span className="logo"></span>
+        <header>
+            <div className={`${handleNavWidth()}`}>
+                <Logo />
 
-            <div className="menu-btn" onClick={toggleMenu}>
-                <span className="menu-btn__burger"></span>
-            </div>
-
-            <nav className="nav">
-                <div className="menu-nav">
-                    <ul className="menu-nav__inner">
-                        <li className="menu-nav__item">
-                            <a href="https://joyjet.com/" className="menu-nav__link">
-                                Blog
-                            </a>
-                        </li>
-                        <li className="menu-nav__item">
-                            <a href="https://joyjet.com/" className="menu-nav__link">
-                                Popular
-                            </a>
-                        </li>
-                        <li className="menu-nav__item contact">
-                            <a href="https://joyjet.com/" className="menu-nav__link">
-                                Archive
-                            </a>
-                        </li>
-                        <li className="menu-nav__item contact">
-                            <a href="https://joyjet.com/" className="menu-nav__link">
-                                About
-                            </a>
-                        </li>
-                    </ul>
+                <div className="menu-btn" onClick={toggleMenu}>
+                    <span className="menu-btn__burger"></span>
                 </div>
-            </nav>
+
+                <nav className="nav">
+                    <div className="menu-nav">
+                        <ul className="menu-nav__inner">
+                            <li className="menu-nav__item">
+                                <a href="https://joyjet.com/" className="menu-nav__link">
+                                    Blog
+                                </a>
+                            </li>
+                            <li className="menu-nav__item">
+                                <a href="https://joyjet.com/" className="menu-nav__link">
+                                    Popular
+                                </a>
+                            </li>
+                            <li className="menu-nav__item contact">
+                                <a href="https://joyjet.com/" className="menu-nav__link">
+                                    Archive
+                                </a>
+                            </li>
+                            <li className="menu-nav__item contact">
+                                <a href="https://joyjet.com/" className="menu-nav__link">
+                                    About
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </header>
     )
 }
