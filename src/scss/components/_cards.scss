@@ -1,5 +1,6 @@
 .card {
     border: none;
+    overflow: hidden;
     
     &-title {
         color: $text-color--dk
@@ -7,5 +8,19 @@
 
     &-text {
         color: $text-color--lt;
+    }
+
+    img {
+        height: 45vw;
+        width: auto;
+        object-fit: cover;
+    }
+}
+
+@include media-md {
+    .card {
+        img {
+            height: 15vw;
+        }
     }
 }

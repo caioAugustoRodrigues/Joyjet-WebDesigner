@@ -3,7 +3,7 @@
     position: sticky;
     z-index: 35;
     top: 0;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-content: center;
@@ -16,12 +16,26 @@
     ul {
         display: flex;
         justify-content: space-evenly;
-        width: 30vw;
+        width: 45vw;
     }
 
     .logo {
-        top: calc(100% - 32px);
+        top: -5%;
         align-self: center;
         justify-self: flex-start;
+    }
+}
+
+@include media-md {
+    .sticky-nav {
+        display: flex;
+    }
+}
+
+@include media-lg {
+    .sticky-nav {
+        ul {
+            width: 35vw;
+        }
     }
 }
