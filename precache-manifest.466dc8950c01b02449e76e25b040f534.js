@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ea9ce823fa85017bdac2d8ceeb92abb",
+    "revision": "10e728038c5802e9fe80457334efe519",
     "url": "/Joyjet-WebDesigner/index.html"
   },
   {
-    "revision": "f48d3bbd18ed71e026ed",
-    "url": "/Joyjet-WebDesigner/static/css/main.ba7bcbf8.chunk.css"
+    "revision": "7ed77dc2d99fec28dab4",
+    "url": "/Joyjet-WebDesigner/static/css/main.c350e75b.chunk.css"
   },
   {
-    "revision": "62052aba3d30a4e1c5c6",
-    "url": "/Joyjet-WebDesigner/static/js/2.95feaf07.chunk.js"
+    "revision": "5f77993a04075268fd8c",
+    "url": "/Joyjet-WebDesigner/static/js/2.f67b4445.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/Joyjet-WebDesigner/static/js/2.95feaf07.chunk.js.LICENSE"
+    "url": "/Joyjet-WebDesigner/static/js/2.f67b4445.chunk.js.LICENSE"
   },
   {
-    "revision": "f48d3bbd18ed71e026ed",
-    "url": "/Joyjet-WebDesigner/static/js/main.7a5b83f1.chunk.js"
+    "revision": "7ed77dc2d99fec28dab4",
+    "url": "/Joyjet-WebDesigner/static/js/main.ea0ef26f.chunk.js"
   },
   {
     "revision": "b246f9dc6e8f66e616b0",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joyjet-WebDesigner/static/media/satellite.e424a9de.jpg"
   },
   {
-    "revision": "d55a2c5cdc120c2a8fd2969dde256143",
-    "url": "/Joyjet-WebDesigner/static/media/satelliteb.d55a2c5c.jpg"
+    "revision": "e0cec7b272595c6455a578b729373c55",
+    "url": "/Joyjet-WebDesigner/static/media/satelliteb.e0cec7b2.jpg"
   }
 ]);
