@@ -9,4 +9,5 @@ Hosted in: https://caioaugustorodrigues.github.io/Joyjet-WebDesigner/
 * Bootstrap(v4.4)
 * Jquery(v3.4.1 for Bootstrap functionalities)
 * Gulp(for cross-browser compatibility)
-* TinyPng(for lower image loading times)
+* TinyPng(for lower image loading times
+* React
