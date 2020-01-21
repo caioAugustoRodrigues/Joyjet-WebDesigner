@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Joyjet-WebDesigner/static/css/main.c350e75b.chunk.css",
-    "main.js": "/Joyjet-WebDesigner/static/js/main.ea0ef26f.chunk.js",
-    "main.js.map": "/Joyjet-WebDesigner/static/js/main.ea0ef26f.chunk.js.map",
+    "main.css": "/Joyjet-WebDesigner/static/css/main.754669ed.chunk.css",
+    "main.js": "/Joyjet-WebDesigner/static/js/main.6e2aab63.chunk.js",
+    "main.js.map": "/Joyjet-WebDesigner/static/js/main.6e2aab63.chunk.js.map",
     "runtime-main.js": "/Joyjet-WebDesigner/static/js/runtime-main.8c0cd006.js",
     "runtime-main.js.map": "/Joyjet-WebDesigner/static/js/runtime-main.8c0cd006.js.map",
     "static/js/2.f67b4445.chunk.js": "/Joyjet-WebDesigner/static/js/2.f67b4445.chunk.js",
     "static/js/2.f67b4445.chunk.js.map": "/Joyjet-WebDesigner/static/js/2.f67b4445.chunk.js.map",
     "index.html": "/Joyjet-WebDesigner/index.html",
-    "precache-manifest.466dc8950c01b02449e76e25b040f534.js": "/Joyjet-WebDesigner/precache-manifest.466dc8950c01b02449e76e25b040f534.js",
+    "precache-manifest.e4c2fc6df87ee830d1c5324b2a06b0cb.js": "/Joyjet-WebDesigner/precache-manifest.e4c2fc6df87ee830d1c5324b2a06b0cb.js",
     "service-worker.js": "/Joyjet-WebDesigner/service-worker.js",
-    "static/css/main.c350e75b.chunk.css.map": "/Joyjet-WebDesigner/static/css/main.c350e75b.chunk.css.map",
+    "static/css/main.754669ed.chunk.css.map": "/Joyjet-WebDesigner/static/css/main.754669ed.chunk.css.map",
     "static/js/2.f67b4445.chunk.js.LICENSE": "/Joyjet-WebDesigner/static/js/2.f67b4445.chunk.js.LICENSE",
     "static/media/main.css": "/Joyjet-WebDesigner/static/media/satelliteb.e0cec7b2.jpg",
     "static/media/moon.jpg": "/Joyjet-WebDesigner/static/media/moon.9cefec53.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c0cd006.js",
     "static/js/2.f67b4445.chunk.js",
-    "static/css/main.c350e75b.chunk.css",
-    "static/js/main.ea0ef26f.chunk.js"
+    "static/css/main.754669ed.chunk.css",
+    "static/js/main.6e2aab63.chunk.js"
   ]
 }

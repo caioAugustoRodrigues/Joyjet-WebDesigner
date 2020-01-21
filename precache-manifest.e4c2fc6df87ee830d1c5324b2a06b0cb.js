@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10e728038c5802e9fe80457334efe519",
+    "revision": "6ffb84b0473e39732b21ba6f68c3f4ab",
     "url": "/Joyjet-WebDesigner/index.html"
   },
   {
-    "revision": "7ed77dc2d99fec28dab4",
-    "url": "/Joyjet-WebDesigner/static/css/main.c350e75b.chunk.css"
+    "revision": "fc5d0bd62647014e558f",
+    "url": "/Joyjet-WebDesigner/static/css/main.754669ed.chunk.css"
   },
   {
     "revision": "5f77993a04075268fd8c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joyjet-WebDesigner/static/js/2.f67b4445.chunk.js.LICENSE"
   },
   {
-    "revision": "7ed77dc2d99fec28dab4",
-    "url": "/Joyjet-WebDesigner/static/js/main.ea0ef26f.chunk.js"
+    "revision": "fc5d0bd62647014e558f",
+    "url": "/Joyjet-WebDesigner/static/js/main.6e2aab63.chunk.js"
   },
   {
     "revision": "b246f9dc6e8f66e616b0",

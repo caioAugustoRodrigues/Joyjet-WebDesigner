@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Joyjet-WebDesigner/precache-manifest.466dc8950c01b02449e76e25b040f534.js"
+  "/Joyjet-WebDesigner/precache-manifest.e4c2fc6df87ee830d1c5324b2a06b0cb.js"
 );
 
 self.addEventListener('message', (event) => {
