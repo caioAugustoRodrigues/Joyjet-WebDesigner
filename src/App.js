@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/main.css';
+import './gulp/main.css';
 import NavBar from './components/navbar';
 import Hero from './components/hero';
 import Blog from './components/blog';
@@ -14,8 +14,6 @@ export default function App() {
 			<Hero />
 			<StickyNav />
 			<Blog />
-			<About />
-			<About />
 			<About />
 			<Footer />
 		</>
